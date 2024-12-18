@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#" class="title-link">關於Jason</a>
+      <a href="#qa1">1. 個人簡介和申請動機</a>
+      <a href="#qa2"
+        >2. 曾經做過哪些軟體工程技術相關的學習？若有作品請分享給我們。</a
+      >
+      <a href="#qa3">3. 如果參與這個訓練，會怎麼安排學習時間？ </a>
+      <a href="#qa4"
+        >4. 軟體技術日新月異，如何確定選擇投入的領域是正確有回報的？
+      </a>
+      <a href="#qa5">5. 請描述一件產生明顯負面情緒的經歷，如何處理該情緒？</a>
+      <a href="#qa6">6. 關於這份申請網頁，分享一個開發時的技術心得。 </a>
+      <a href="#qa7">7. 如何看待自身工作和整個社會群體的連結關係？ </a>
+      <a href="#qa8">8. 其他想要對我們說的事情？</a>
+    </div>
+    <div class="container">
+      <div class="subcontainer">
+        <header>
+          <p class="header">Wehelp第六屆深度學習申請</p>
+        </header>
+        <div id="qa1" class="question left">
+          <p class="sub-question">個人簡介和申請動機</p>
+          <p class="answer">
+            從Whelp轉職工程師已經過了快3年。
+            畢業後很偶然的到了一間IoT公司，然後中間也有換到去別的IoT的公司，認識到不同的pm，工程師，一起工作的時間也讓我解決問題的能力跟管理專案的經驗有所提升。
+            我在加入這些公司後主要都是去為他們現有的系統加上一些新的功能或者去解決一些bug/技術債。離開Wehelp之後就鮮少有機會從0開始去設計一套系統。
+            在曾經的公司裡，我有機會接觸到一些軟體的machine learning
+            功能比如像是elastic search 就有提供machine
+            learning，把一些設備的data餵進去後可以得到一些預測結果。可是對於底層的邏輯到底是如何訓練這個model，我一直也只有模糊的認知。
+            這次有看到wehelp舉辦了跟AI有關的訓練營而且在看過了彭彭的youtube深度學習教學影片，非常感興趣就想來報名參加。
+          </p>
+        </div>
+
+        <div id="qa2" class="question right">
+          <p class="sub-question">
+            曾經做過哪些軟體工程技術相關的學習？若有作品請分享給我們。
+          </p>
+          <div class="answer">
+            <ul>
+              <li>
+                主要的學習都是圍繞在cloud 跟 IoT 上面，在開發中不免得要不停在AWS
+                console中建立資源，然後更改或新增刪除，為了減少直接手動在AWS
+                console 裡面去建資源。我有學習如何用IAC(infrastructure as
+                code),像是terraform,去建立每一個專案需要用到服務。這樣做的目的是更容易去管理專案中用到的AWS
+                資源，並且可以重用這些做寫好的terraform
+                code在下一個專案中直接改掉參數，快速建立出一套一模一樣的cloud
+                架構。
+              </li>
+              <li>
+                在走進IoT的領域之後，我要去學習如何讓設備去跟cloud溝通或者讓使用者去用App控制設備。我認識到了除了常見到HTTP這個protocol之外，還有像是使用MQTT
+                這種在IoT世界裡使用的protocol，透過中間人MQTT的broker讓我們的使用者可以去跟設備溝通。
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="qa3" class="question left">
+          <p class="sub-question">如果參與這個訓練，會怎麼安排學習時間？</p>
+          <p class="answer">
+            現在因為有在職的關係，我至少也會在日常週一到週五會投入1到2小時的學習時間，而週末就會投入4-6小時去做深入的學習。
+          </p>
+        </div>
+
+        <div id="qa4" class="question right">
+          <p class="sub-question">
+            軟體技術日新月異，如何確定選擇投入的領域是正確有回報的？
+          </p>
+
+          <p class="answer">
+            我自己有時候會去應徵網看一下現在IT行業裡哪種類型的技術是比較缺人，有沒有哪些技術最近很火。前陣子看到過devops
+            engineer比較多公司需要，再去看一下在devops裡面需有什麼樣的核心技術，像是我看到5個招聘3個都在講terraform,
+            我就會去研究，然後再去跟我senior同事商討可不可在現有架構裡面加進pipeline等等，透過這樣一邊留意市場再去學習一些熱門的技術然後放到工作裡。
+          </p>
+        </div>
+
+        <div id="qa5" class="question left">
+          <p class="sub-question">
+            請描述一件產生明顯負面情緒的經歷，如何處理該情緒？
+          </p>
+          <p class="answer">
+            在我剛進我前一家公司裡面，我聽說那時候我的主管對我的期待是很高的，而我後來在一次團隊技術分享裡面犯了一個錯就是「不懂裝懂」，主管當時問了我一個問題，可能是我剛從前一家公司轉過來，所以我想表現得我對這個東西很熟悉，
+            我就硬在那邊跟他爭論。自始之後我就感覺到他對我態度有所改變，像沒有太重視我的感覺。我後來去問了一個同事，聽到說原來我有時候會「不懂裝懂」，所以讓主管感覺不好。後來我隔天就打了一個電話給我主管，問了他我進來這兩個月的表現跟有沒有什麼地方可以改善。讓我沒想到的是他花了快半個小時跟我慢慢談，主要也是希望別太在意那個尊嚴，有時候不懂的時候真的只需要說不懂就行，之後再學就好。所以這也讓我領悟到不是任何一個工程師就什麼都會，有時候真的不懂的時候就應該放下尊嚴說不懂之後再查。自那通電話後我也心情舒暢了很多。
+          </p>
+        </div>
+
+        <div id="qa6" class="question right">
+          <p class="sub-question">
+            關於這份申請網頁，分享一個開發時的技術心得。
+          </p>
+
+          <p class="answer">
+            在這次的網頁排版中，我有用到一個叫做"scroll-behavior:
+            smooth"的css屬性，這可以使我點擊選單的項目時，直接滑動到對應的項目。讓我不需要寫javascript就可以直接實現這種效果。
+          </p>
+        </div>
+
+        <div id="qa7" class="question left">
+          <p class="sub-question">如何看待自身工作和整個社會群體的連結關係？</p>
+          <p class="answer">
+            成為了軟體工程師的這3年我都一直在IoT公司裡面公作，無論是從小型到一般家庭的智能家居還是大型到醫院裡的安全設備，我都有接觸過。並認知到原來社會中可能每一處都是IoT。
+            我覺得我的工作角色就像防止事故發生的一名守衛。當我今天的客戶是醫院的話，我的工作是要確保安全設備從發出信號到上雲端再發送警告到終端使用者的那條路線，必須要在最短的時間內反應到出來。因為有可能病人已經出了什麼狀況，醫護人員必須在最短時間內收到信息然後馬上去查看。任何的延誤也可能會造成不好的後果。
+            當我今天的客戶對像是一般家庭，家裡可能有安裝那種窗戶感應器或是氣體感應器，一旦發生事故收到警告信息，使用者也可以馬上可以意識到家中是不是有事發生，要趕緊聯繫家人。
+          </p>
+        </div>
+
+        <div id="qa8" class="question right">
+          <p class="sub-question">其他想要對我們說的事情？</p>
+
+          <p class="answer">
+            畢業後我不時也有留意Wehelp的狀況，最近也得知Wehelp要準備舉辦第6屆。看著Wehelp的網站不停新增功能，還有美化到現在的樣子，我真的很替老師感到高興。我一直認為在Wehelp學到的東西比我在大學學到的更實用，為我的事業發展打好了基礎。回想當年chatGPT還沒現世，那半年在Wehelp的時間，經常跟顆伴們熬夜到2、3點學習。最後也如願
+            成為了一名軟體工程師，所以我一直都很感謝在那時候遇到了Wehelp。
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
